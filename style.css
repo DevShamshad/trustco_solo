@@ -529,4 +529,77 @@ li a:hover::after {
 }
 /******************* Mobile Responsive Styles For HEADER SECTION END ******************************/
 
+/*************************** VIDEO SECTION START ********************************/
+#video-section {
+    text-align: center;
+    padding: 4rem 2rem 0 2rem;
+    background-color: var(--main-color);
+    width: 100%;
+
+
+}
+
+#video-section .video-content {
+    width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(3fr, 2fr);
+    color: var(--second-color);
+    text-align: left;
+}
+#video-section .video-content h1 {
+    width: 110%;
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--second-color);
+    margin-bottom: 1.5rem;
+    span{
+        color: rgb(250, 188, 4);
+    }
+}
+#video-section .video-content p {
+    width: 110%;
+    font-size: 1.8rem;
+    color: var(--second-color);
+    margin-bottom: 2rem;
+}
+
+
+
+.video-thumbnail {
+    position: relative;
+
+    display: inline-block;
+    cursor: pointer;
+}
+.video-thumbnail img {
+    width: 80rem;
+    /* max-width: 600px; */
+    border-radius: 8px;
+}
+
+.play-icon {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(41, 41, 41, 0.518);
+
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-icon svg {
+    fill: white;
+    width: 3rem;
+    height: 3rem;
+}
+
+/*************************** VIDEO SECTION END ********************************/
 
