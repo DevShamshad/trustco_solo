@@ -1146,3 +1146,87 @@ li a:hover::after {
 }
 
 /*************************** MEET FOUNDER SECTION END ********************************/
+
+/*************************** MEET FOUNDER SECTION FOR MOBILE RESPONSIVE START ********************************/
+
+
+@media (max-width: 1023px) {
+    #meet-founder {
+        width: 100%;
+        height: auto;
+        padding: 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.2rem;
+        text-align: center;
+    }
+
+    #meet-founder .founder-content {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        gap: 1.6rem;
+
+        h2 {
+            width: 100%;
+            font-size: 3.6rem;
+            margin-bottom: 1.6rem;
+        }
+
+        p {
+            width: 100%;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+
+        .founder-name {
+            font-size: 1.6rem;
+            margin-top: auto;
+            margin-bottom: 0.8rem;
+        }
+
+        .founded {
+            font-size: 1.2rem;
+            margin-bottom: 1.6rem;
+        }
+
+        .founder-btn {
+            margin-top: 2rem;
+            margin:auto;
+            padding: 1rem;
+            font-size: 1.2rem;
+            border-radius: 2.4rem;
+        }
+        .founder-btn:hover {
+            background-color: #092fd6;
+            transition: background-color 0.3s ease;
+        }
+
+        .founder-btn .icon {
+            width: 1.6rem;
+            height: 1.6rem;
+        }
+
+        .founder-btn .icon .arrow-icon {
+            padding: 0.4rem;
+        }
+    }
+
+    #meet-founder .founder-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+/*************************** MEET FOUNDER SECTION FOR MOBILE RESPONSIVE END ********************************/
