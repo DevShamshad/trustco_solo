@@ -1230,3 +1230,122 @@ li a:hover::after {
 }
 
 /*************************** MEET FOUNDER SECTION FOR MOBILE RESPONSIVE END ********************************/
+
+/*************************** TESTIMONIAL SECTION START ********************************/
+
+#testimonials {
+    width: 100%;
+    height: 67.1rem;
+    background-color: #F2F5F6;
+    padding: 10rem 15rem 10rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6.4rem;
+}
+
+#testimonials .testimonial-content {
+    width: 100%;
+    height: 7.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7.7rem;
+}
+#testimonials .testimonial-content h2{
+    width: 96.8rem;
+    height: 7.2rem;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: -2%;
+    text-transform: titlecase;
+    margin-bottom: 3rem;
+    line-height: 7.2rem;
+    color: #12141D;
+   
+}
+#testimonials .testimonial-content button{
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.6rem; 
+    border: none;
+    background-color: #F2F5F6;
+    color: #12141D;
+    gap: 0.8rem; 
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 10rem; 
+    white-space: nowrap; 
+    img{
+        color: #1a35ad;
+        width: 2.4rem;
+        height: 2.4rem;
+        border-radius: 50%;
+        padding: 0.5rem;
+    }
+
+}
+
+#testimonials .testimonial-row{
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    gap: 3.2rem;
+}
+
+#testimonials  .testimonial-row .testimonial{
+    width: 55.4rem;
+    height: 26rem;
+    padding: 2.4rem;
+    background-color: #ffffff;
+    
+    border-radius: 1.6rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    box-shadow: 0 1px 2px 0  #000000;
+    gap: 2.4rem;
+
+    img{
+        width: 4.7rem;
+        height: 1.4rem;
+        opacity: 90%;
+        border-radius: 50%;
+        float: left;
+    }
+
+    p{
+        font-weight: 400;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        color: #12141D;
+
+    }
+}
+
+#testimonials  .testimonial-row .testimonial .author{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    align-items: center;
+
+    img{
+        width: 4.8rem;
+        height: 4.8rem;
+        border-radius: 50%;
+    }
+
+}
+#testimonials img{
+    width: 17.3remrem;
+    height: 1.2rem;
+    gap: 1.1rem;
+}
+/*************************** TESTIMONIAL SECTION END ********************************/
