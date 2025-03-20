@@ -161,6 +161,87 @@ background-color: var(--main-color);
     font-weight: 600;
     background-color: var(--bg-color);
 }
-
+.img1-mobile, .img2-mobile{
+    display: none;
+}
 
 /******************* HERO SECTION END ***********************/
+
+/******************* Mobile Responsive Styles For HERO SECTION START ******************************/
+@media (max-width: 768px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 6rem 0 7rem 0;
+        position: relative;
+
+    }
+    .hero-section-heading {
+        width: 90%;
+        font-size: 3rem;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .hero-section-para {
+        width: 90%;
+        font-size: 1.6rem;
+        margin: auto;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .hero-btn {
+        width: 90%;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+    .hero-btn .btn, .hero-btn .btn1{
+        padding: 1.5rem 2rem;
+        font-size: 1.8rem;
+        justify-content: center;
+    }
+
+
+    .hero-btn .btn1 .image {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        padding: 1rem;
+        position: relative;
+        background-color: var(--main-color);
+    }
+    .hero-btn .btn1 .image .img{
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+
+        color: white;
+        filter: brightness(0) invert(1);
+        fill: white;
+
+    }
+    .image-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: auto;
+
+    }
+    .img1-mobile, .img2-mobile{
+        display: block;
+        width: 14rem;
+        height: 24rem;
+    }
+    .img1-desktop, .img2-desktop{
+        display: none;
+    }
+
+}
+/******************* Mobile Responsive Styles For HERO SECTION END ******************************/
+
