@@ -1655,7 +1655,7 @@ li a:hover::after {
         padding: 2rem 2rem;
         position: relative;
         /* overflow: hidden; */
-        
+
     }
 
     #blogs .blog-content {
@@ -1673,7 +1673,7 @@ li a:hover::after {
         font-size: 3rem;
         font-weight: 700;
         line-height: 3.8rem;
-       
+
         span {
             color: #010739;
         }
@@ -1691,6 +1691,7 @@ li a:hover::after {
         flex-direction: row;
         align-items: center;
         margin: auto;
+        justify-content: center;
         gap: 1.6rem;
         width: 37.2rem;
         overflow-x: hidden;
@@ -1761,3 +1762,227 @@ li a:hover::after {
 }
 
 /*************************** BLOG SECTION FOR MOBILE AND TABLET RESPONSIVE END ********************************/
+
+/*************************** CTA BANNER START ********************************/
+#cta-banner {
+    width: 100%;
+    height: 52rem;
+    margin-top: 10rem;
+    /* background-color: #000000; */
+    background: url('./image-folder/BG.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: -100;
+    position: relative;
+}
+
+#cta-banner .cta-heading {
+    width: 67.3rem;
+    height: 31.2rem;
+    padding: 15rem 0 0 15rem;
+    z-index: 10;
+}
+
+#cta-banner .cta-heading h1 {
+    height: 14.4rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5.2rem;
+    letter-spacing: -2%;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+#cta-banner .cta-heading button {
+    /* margin-top: 8rem; */
+    width: 27.3rem;
+    height: 6.4rem;
+    border-radius: 5.5rem;
+    padding: 1.6rem 1.6rem 1.6rem 2.4rem;
+    gap: 2.5rem;
+    background-color: #F0B73F;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+
+}
+
+#cta-banner .cta-heading button .text {
+    width: 17.6rem;
+    height: 2.8rem;
+    color: #ffffff;
+    width: 17.6rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: left;
+    letter-spacing: 0%;
+
+}
+
+#cta-banner .cta-heading button .icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #a38d5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 1.6rem;
+        height: 1.5rem;
+        filter: brightness(0) invert(1);
+    }
+}
+
+#cta-banner .cta-heading button:hover {
+    background-color: #eeb63f;
+
+    .icon {
+        background-color: #edc368;
+    }
+}
+
+#cta-banner .cta-heading p {
+    width: 44.8rem;
+    height: 3rem;
+    opacity: 70%;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+#cta-banner .cta-decorations {
+    position: relative;
+    /* z-index: 5; */
+}
+
+#cta-banner .cta-decorations img {
+    margin-left: -15rem;
+    z-index: 15;
+
+}
+
+#cta-banner .cta-decorations .star-icon {
+    width: 10.4rem;
+    height: 16.7rem;
+    position: relative;
+    top: -20rem;
+    left: 32.4rem;
+    border-top-left-radius: 100rem;
+    overflow: hidden;
+    border-top-right-radius: 100rem;
+    padding: 1.6rem;
+    gap: 1.8rem;
+    background-color: #043A53;
+
+}
+
+#cta-banner .cta-decorations .star-icon .star {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 16%;
+    padding: 1.6rem;
+    gap: 1rem;
+    position: absolute;
+}
+
+#cta-banner .cta-decorations .star-icon img {
+
+    /* background-color: rgb(159, 17, 17); */
+    width: 3.8rem;
+    height: 3.6rem;
+    position: absolute;
+    /* border-color: white; */
+    /* color: white; */
+    /* filter: brightness(1) invert(0); */
+    fill: black;
+    left: 18.3rem;
+    top: 3.3rem;
+
+}
+
+#cta-banner .cta-decorations .crown-icon {
+    /* width: 10.4rem; */
+    /* height: 33rem; */
+    position: relative;
+    top: -15rem;
+    left: -15rem;
+    /* border-top-left-radius: 100rem; */
+    /* border-top-right-radius: 100rem; */
+    padding: 1.6rem;
+    gap: 1.8rem;
+}
+
+#cta-banner .cta-decorations .crown-icon .crown {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 16%;
+    padding: 1.6rem;
+    gap: 1rem;
+    position: absolute;
+
+}
+
+#cta-banner .cta-decorations .crown-icon img {
+    position: absolute;
+    width: 3.8rem;
+    height: 3.6rem;
+    left: 18.3rem;
+    top: 3rem;
+
+
+
+}
+
+#cta-banner .cta-decorations .search-icon {
+    width: 10.4rem;
+    height: 33rem;
+    position: relative;
+    top: -53rem;
+    left: 49rem;
+    border-top-left-radius: 100rem;
+    border-top-right-radius: 100rem;
+    padding: 1.6rem;
+    gap: 1.8rem;
+    background-color: #f0b73f;
+    z-index: -10;
+
+}
+
+#cta-banner .cta-decorations .search-icon .search {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    opacity: 16%;
+    padding: 1.6rem;
+    gap: 1rem;
+    position: absolute;
+}
+
+#cta-banner .cta-decorations .search-icon img {
+    width: 3.8rem;
+    height: 3.6rem;
+    position: absolute;
+    /* border-color: white; */
+    /* color: white; */
+    /* filter: brightness(1) invert(0); */
+    fill: black;
+    left: 18.3rem;
+    top: 3.3rem;
+}
+
+/*************************** CTA BANNER END ********************************/
