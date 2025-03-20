@@ -2830,3 +2830,130 @@ footer .top-footer .links .about-link p:hover{
 }
 
 /********* BOTTOM FOOTER SECTION FOR MOBILE AND TABLET RESPONSIVE END ************/
+
+
+/********* MIDDLE FOTTER SECTION START ************/
+.middle-footer{
+    height: 33.8rem;
+    padding: 4rem 0;
+    gap: 1rem;
+    background-color: #F2F5F6;
+}
+
+.middle-footer .collaborators{
+    width: 67.6rem;
+    height: 27.8rem;
+    border-radius: 2rem;
+    border: 1px solid #888888;
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+}
+
+.middle-footer .collaborators .wrapper1{
+    height: 8.4rem;
+    border-bottom: 1px solid #888888;
+    padding: 3rem 10rem;
+    gap: 1rem;
+    color: #000000;
+}
+.middle-footer .collaborators .wrapper1 p span{
+    color: #ac00e1;
+}
+.middle-footer .collaborators .wrapper2{
+    height: 19.4rem;
+    gap: 3rem;
+    /* padding: 30rem 10rem; */
+    
+}
+.middle-footer .collaborators .wrapper2 p{
+    width: 11.2rem;
+    height: 2.4rem;
+    
+    /* font-family: 'Poppins' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.2px;
+    color: #444444;
+    margin-left: 30rem;
+    margin-top: 2rem;
+}
+.middle-footer .collaborators .wrapper2 .collaborator{
+    width: 47.6rem;
+    height: 8rem;
+    gap: 1.9rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.middle-footer .collaborators .wrapper2 .collaborator img{
+    width: 8rem;
+    height: 8rem;
+}
+
+
+/********* MIDDLE FOOTER SECTION END ************/
+
+
+
+/********* MIDDLE FOOTER SECTION FOR MOBILE AND TABLET RESPONSIVE START ************/
+
+@media (max-width: 1023px) {
+    .middle-footer {
+        height: auto;
+        padding: 2rem 1rem;
+        gap: 1rem;
+    }
+
+    .middle-footer .collaborators {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+        border: 1px solid #888888;
+        color: #ffffff;
+        text-align: center;
+        margin: auto;
+    }
+
+    .middle-footer .collaborators .wrapper1 {
+        height: auto;
+        border-bottom: 1px solid #888888;
+        padding: 2rem 1rem;
+        gap: 1rem;
+        color: #000000;
+    }
+
+    .middle-footer .collaborators .wrapper2 {
+        height: auto;
+        gap: 1rem;
+        padding: 2rem 1rem;
+    }
+
+    .middle-footer .collaborators .wrapper2 p {
+        width: auto;
+        height: auto;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        letter-spacing: 0.2px;
+        color: #444444;
+        margin: 0 auto 1rem auto;
+    }
+
+    .middle-footer .collaborators .wrapper2 .collaborator {
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .middle-footer .collaborators .wrapper2 .collaborator img {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+/********* MIDDLE FOOTER SECTION FOR MOBILE AND TABLET RESPONSIVE END ************/
