@@ -868,3 +868,49 @@ li a:hover::after {
     }
 }
 /*************************** BUILDING BRIDGE SECTION END ********************************/
+
+/*************************** BUILDING BRIDGE SECTION FOR MOBILE AND TABLET RESPONSIVE START ********************************/
+
+@media (max-width: 1023px) {
+    #building-bridge {
+        flex-direction: column-reverse;
+        padding: 5rem 2rem;
+        height: auto;
+        gap: 3rem;
+    }
+    #building-bridge .bridge-content {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        text-align: center;
+    }
+    #building-bridge .bridge-content h2 {
+        width: 100%;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    #building-bridge .bridge-content p {
+        width: 100%;
+        height: auto;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+    #building-bridge .bridge-content .bridge-btn {
+        margin-top: 5rem;
+        margin: auto;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    #building-bridge .bridge-image {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+    }
+    #building-bridge .bridge-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*************************** BUILDING BRIDGE SECTION FOR MOBILE AND TABLET RESPONSIVE END ********************************/
