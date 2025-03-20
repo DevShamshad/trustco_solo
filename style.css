@@ -118,6 +118,12 @@ header {
         height: 4rem;
     }
 
+    a{
+        color: var(--main-color);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
 }
 
 .nav-links {
