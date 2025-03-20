@@ -458,7 +458,7 @@ li a:hover::after {
         display: flex;
         justify-content: center;
         padding: 3rem 2rem;
-        position: sticky;
+        /* position: sticky; */
         top: 0;
         width: 100%;
         z-index: 1000;
@@ -541,29 +541,36 @@ li a:hover::after {
 
 #video-section .video-content {
     width: 80rem;
-    margin: auto;
+    margin:2rem auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     font-size: 2.4rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     grid-template-columns: repeat(3fr, 2fr);
     color: var(--second-color);
     text-align: left;
 }
-#video-section .video-content h1 {
-    width: 110%;
+#video-section .video-content .p-desktop {
+    width: 100%;
     font-weight: 700;
     font-size: 3rem;
     color: var(--second-color);
+    max-width: 100%;
     margin-bottom: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
     span{
         color: rgb(250, 188, 4);
     }
 }
+#video-section .video-content .p-mobile{
+    display: none;
+}
 #video-section .video-content p {
-    width: 110%;
+    width: 100%;
     font-size: 1.8rem;
+   
     color: var(--second-color);
     margin-bottom: 2rem;
 }
@@ -603,3 +610,54 @@ li a:hover::after {
 
 /*************************** VIDEO SECTION END ********************************/
 
+/*************************** VIDEO SECTION MOBILE START ********************************/
+
+@media (max-width: 768px) {
+    #video-section {
+        text-align: center;
+        padding: 4rem 2rem 0 2rem;
+        background-color: var(--main-color);
+        /* width: 100%; */
+
+
+    }
+    #video-section .video-content {
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        flex-wrap: wrap;
+        float: left;
+        width: 37rem;
+
+    }
+
+    #video-section .video-content h1 {
+        width: 30rem;
+
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    #video-section .video-content .p-desktop {
+
+       width: 35rem;
+        color: var(--second-color);
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        flex: 1 1 auto;
+    }
+
+    .video-thumbnail img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/******************* Mobile Responsive Styles For Video Section End ******************************/
