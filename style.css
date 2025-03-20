@@ -18,7 +18,7 @@
    p,li,a,label{
        font-family: "Urbanist", sans-serif;
        font-size: 1.8rem;
-       letter-spacing: 0.1rem;
+       /* letter-spacing: 0.1rem; */
        font-weight: 400;
        line-height: 1.5;
    }
@@ -244,4 +244,40 @@ background-color: var(--main-color);
 
 }
 /******************* Mobile Responsive Styles For HERO SECTION END ******************************/
+
+
+/*************************** HERO BRAND SECTION START ********************************/
+.hero-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* margin: 10rem 0 15rem 0; */
+
+    p{
+        margin-right: 5rem;
+    }
+}
+.brand-image{
+    width: 10rem;
+    height: 10rem;
+}
+.brand-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: black;
+    }
+    img{
+        width: 3rem;
+        height: 3rem;
+
+    }
+}
+
+/*************************** HERO BRAND SECTION END ********************************/
 
