@@ -2785,3 +2785,48 @@ footer .top-footer .links .about-link p:hover{
 }
 
 /********* BOTTOM FOOTER SECTION END ************/
+
+
+/********* BOTTOM FOOTER SECTION FOR MOBILE AND TABLET RESPONSIVE START ************/
+
+@media (max-width: 1023px) {
+    .bottom-footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .bottom-footer p,
+    .bottom-footer button {
+        width: auto;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .bottom-footer button {
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .bottom-footer .langauge {
+        width: auto;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .bottom-footer .langauge span {
+        width: auto;
+        font-size: 1.4rem;
+        text-align: center;
+        color: #92A7B0;
+    }
+
+    .bottom-footer .langauge img {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+}
+
+/********* BOTTOM FOOTER SECTION FOR MOBILE AND TABLET RESPONSIVE END ************/
