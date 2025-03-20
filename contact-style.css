@@ -21,7 +21,7 @@ html {
     align-items: center;
     gap: 3.2rem;
     overflow-x: hidden;
-    margin-left: -10rem;
+    /* margin-left: -10rem; */
 }
 
 #help .help-container,
@@ -62,7 +62,7 @@ html {
     letter-spacing: -2%;
     text-align: center;
     white-space: nowrap;
-    margin-left: -3rem;
+    /* margin-left: -3rem; */
 
     
 }
@@ -446,3 +446,108 @@ html {
     background-color: #026c9c;
     color: #ffffff;
 }
+
+/********* CONTACT PAGE FOR MOBILE AND TABLET RESPONSIVE START ************/
+
+@media (max-width: 1024px) {
+    #help {
+        width: 100%;
+        padding: 2rem 3rem;
+    }
+
+    #help .help-container,
+    #help .form-container {
+        height: auto;
+        margin: 0;
+        padding: 2rem 1rem;
+    }
+
+    #help .help-container .help-container-header,
+    #help .form-container .form-container-header {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #help .help-container .help-container-header h2,
+    #help .form-container .form-container-header h2 {
+        font-size: 4rem;
+    }
+
+    #help .help-container .help-container-header p,
+    #help .form-container .form-container-header p {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+
+    #help .help-container .help-cards {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    #help .help-container .help-cards .card {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+    }
+    
+    #help .help-container .help-cards .card button {
+        position: static;
+        margin-top: 1rem;
+    }
+
+    #help .form-container {
+        margin: 0;
+        padding: 2rem 3rem;
+    }
+
+    .form {
+        height: 70rem;
+        margin: 0;
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .form .grid1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form .form-group {
+        width: 36rem;
+    }
+    .form .form-group input{
+        width: 100%;
+    }
+
+    .form .form-group-text {
+        width: 36rem;
+    }
+
+    .form .button {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form .button .condition-accept {
+        flex-direction: column;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        margin-left: -5rem;
+    }
+
+    .form .button .condition-accept p {
+        text-align: left;
+    }
+
+  
+    .button button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/********* CONTACT PAGE FOR MOBILE AND TABLET RESPONSIVE END ************/
