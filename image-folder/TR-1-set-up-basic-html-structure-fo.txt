@@ -1,0 +1,19 @@
+TR-1-set-up-basic-html-structure-for-the-landing-page
+
+Made changes for applying Global style for fonts, colors, and margins
+
+Made changes for Creating a visually appealing hero section
+
+Made changes for the implementation of Hero Section Responsiveness
+
+TR-5-Create-the-Trusted-Brands-section
+
+Made changes for creating the Trusted Brands section
+
+Made changes for Hero Brand Icon responsiveness
+
+Made changes for designing the Header Section
+
+Made changes for implementing Responsiveness of Header section
+
+Made changes for implementing video section
