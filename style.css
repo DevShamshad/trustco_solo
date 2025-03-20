@@ -727,3 +727,50 @@ li a:hover::after {
 }
 
 /*************************** POINT SECTION END ********************************/
+
+/*************************** POINT SECTION FOR MOBILE RESPONSIVE START ********************************/
+@media (max-width: 1023px) {
+    #point-section {
+        width: 100%;
+        margin: 3rem 0;
+    }
+    .point-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5rem 0.5rem;
+        justify-content: center;
+    }
+    .point-content .point-heading {
+        float: none;
+        margin: 0 1rem 2rem 1rem;
+        width: 90%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .point-content .point-heading button {
+        margin: 0 auto 1rem auto;
+        font-size: 1.2rem;
+    }
+    .point-content .point-heading button:hover {
+        background-color: var(--btn-hover-bg-color);
+        transition: background-color 0.3s ease;
+    }   
+    .point-content .point-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        gap: 2rem;
+    }
+    .point-content .point-row .point {
+        width: 90%;
+        padding: 1.5rem 2rem;
+        text-align: left;
+    }
+    .point-content .point-row .point h2 {
+        font-size: 2rem;
+    }
+}
+
+/*************************** POINT SECTION FOR MOBILE RESPONSIVE END ********************************/
