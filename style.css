@@ -661,3 +661,69 @@ li a:hover::after {
 }
 
 /******************* Mobile Responsive Styles For Video Section End ******************************/
+
+
+/*************************** POINT SECTION START ********************************/
+
+#point-section {
+    width: 100%;
+    margin: 5rem 0;
+}
+.point-content{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+
+}
+.point-content .point-heading{
+    float: left;
+    margin: 0rem 3rem 3rem 5rem;
+    width: 30rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--hero-heading-color);
+
+    button{
+        background-color: var(--main-color);
+        color: var(--second-color);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        gap: 1rem;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover{
+        background-color: var(--btn-hover-bg-color);
+        transition: background-color 0.3s ease;
+    }
+}
+.point-content .point-row{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 0;
+    gap: 5rem;
+}
+.point-content .point-row .point{
+    background-color: var(--bg-color);
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: left;
+    border-radius: 1rem;
+    width: 25rem;
+
+    h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--hero-heading-color);
+        margin-bottom: 1rem;
+    }
+}
+
+/*************************** POINT SECTION END ********************************/
