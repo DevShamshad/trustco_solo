@@ -40,7 +40,7 @@
        --main-color: #2f4f7f;
        --second-color: #f9f9f9;
        --font-color: #424242;
-       --bg-color: #f9f9f9;
+       --bg-color: hsl(0, 5%, 96%);
        --heading-color: #000a19;
        --hero-heading-color: #070f40;
        --para-color: #504e4d;
@@ -321,4 +321,126 @@ background-color: var(--main-color);
 }
 
 /*************************** HERO BRAND SECTION MOBILE END ********************************/
+/******************* HEAEDER SECTION START ***********************/
+header{
+    background-color: hsl(0, 5%, 96%);
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    position: sticky;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    /* margin: 3rem auto; */
+    padding: 2rem auto;
+    background-color: hsl(0, 5%, 96%);
+    box-shadow: 0 7px 29px 0px hsl(0, 5%, 96%);
+    font-size: 2rem;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-color);
+    cursor: pointer;
+
+    img{
+        /* display: flex;
+        align-items: center; */
+        width: 7rem;
+        height: 4rem;
+    }
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    font-size: 500;
+}
+
+.nav-links li:first-child a  {
+    color: var(--main-color);
+}
+
+.nav-links a:hover{
+    color: var(--main-color);
+
+}
+.nav-links li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 0;
+    height: 2px; 
+    background-color: var(--hero-heading-color);
+    transition: width 0.3s ease;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+.nav-links a:active{
+    color: var(--btn-hover-bg-color);
+}
+
+.nav-links a{
+    position: relative;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--font-color);
+    transition: color 0.3s ease;
+}
+
+.nav-btn{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.btn1, .btn2{
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn1{
+    background-color: var(--second-color);
+    color: var(--main-color);
+
+
+}
+.btn1:hover{
+    background-color: var(--btn-hover-bg-color);
+    color: var(--second-color);
+    transition: background-color 0.3s ease;
+}
+.btn2:hover{
+    background-color: var(--btn-hover-bg-color);
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+/******************* HEAEDER SECTION END ***********************/
+
 
